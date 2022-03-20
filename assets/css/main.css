@@ -1826,7 +1826,7 @@ input, select, textarea {
 /* Feature List */
 
 	.feature-list {
-		max-width: 58em;
+		max-width:58em;
 		margin-left: auto;
 		margin-right: auto;
 		position: relative;
@@ -1842,7 +1842,7 @@ input, select, textarea {
 
 		@media screen and (min-width: 981px) {
 
-			.feature-list > .row > :nth-child(-n + 2) > section {
+			.feature-list > .row > :nth-child(-n + 3) > section {
 				border-top: 0;
 				padding-top: 0;
 			}
@@ -1909,7 +1909,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 800;
 		}
 
 		.icon.brands:before {
@@ -2275,7 +2275,7 @@ input, select, textarea {
 		background: #282b34 url("images/overlay.png");
 		color: #eee;
 		color: rgba(255, 255, 255, 0.5);
-		padding-bottom: 6em;
+		padding-bottom: 3em;
 	}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b, #footer a {
@@ -2344,8 +2344,8 @@ input, select, textarea {
 		}
 
 		#footer header.style1 {
-			padding-bottom: 6em;
-			margin-bottom: 6em;
+			padding-bottom: 3em;
+			margin-bottom: 3em;
 			border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 		}
 
@@ -2949,7 +2949,7 @@ input, select, textarea {
 
 				#footer header.style1 {
 					padding-bottom: 0;
-					margin-bottom: 2em;
+					margin-bottom: 6em;
 					border-bottom: 0;
 				}
 
